@@ -991,6 +991,7 @@ func getProgType(sectionName string) (ProgramType, AttachType, uint32, string) {
 		"sockops":               {SockOps, AttachCGroupSockOps, 0},
 		"sk_skb/stream_parser":  {SkSKB, AttachSkSKBStreamParser, 0},
 		"sk_skb/stream_verdict": {SkSKB, AttachSkSKBStreamVerdict, 0},
+		"sk_skb/sk_verdict": 	 {SkSKB, AttachSkSKBVerdict, 0},
 		"sk_msg":                {SkMsg, AttachSkMsgVerdict, 0},
 		"lirc_mode2":            {LircMode2, AttachLircMode2, 0},
 		"flow_dissector":        {FlowDissector, AttachFlowDissector, 0},
